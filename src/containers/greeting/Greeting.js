@@ -38,7 +38,7 @@ export default function Greeting() {
                 {greeting.subTitle}
               </p>
               <SocialMedia />
-              <div className="button-greeting-div">
+              {/* <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <Button
@@ -47,18 +47,16 @@ export default function Greeting() {
                     href={greeting.resumeLink}
                   />
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
+            
               <img
                 alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+                src={require("../../assets/images/arham-modified.png")}
               ></img>
-            )}
+           
           </div>
         </div>
       </div>

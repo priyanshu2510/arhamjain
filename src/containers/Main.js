@@ -32,19 +32,14 @@ const Main = () => {
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
         <Header />
         <Greeting />
-        <Skills />
-        <StackProgress />
-        <Education />
         <WorkExperience />
-        <Projects />
-        <StartupProject />
+        {/* <Skills /> */}
+        
         <Achievement />
-        <Blogs />
-        <Talks />
-        <Twitter />
-        <Podcast />
+        {/* <Blogs /> */}
+        
         <Profile />
-        <Footer />
+        <Footer/>
         <Top />
       </StyleProvider>
     </div>

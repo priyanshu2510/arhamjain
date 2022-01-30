@@ -1,5 +1,5 @@
 @import "../../_globalColor";
-
+@import url('http://fonts.cdnfonts.com/css/chalkduster');
 /*React-headroom*/
 .headroom-wrapper {
   max-height: 100px;
@@ -63,6 +63,7 @@
 .header .logo-name {
   font-family: "Agustina Regular";
   font-weight: bold;
+  font-size: 35px;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
